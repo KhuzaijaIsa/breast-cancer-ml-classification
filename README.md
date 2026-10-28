@@ -85,12 +85,17 @@ These metrics were used to compare model performance while accounting for the ch
 ```text
 breast-cancer-ml-classification/
 │
-├── notebooks/       # Data analysis and machine learning notebooks
-├── src/             # Reusable Python code
-├── results/         # Model evaluation results
-├── figures/         # Selected visualisations
-├── requirements.txt
-└── README.md
+├── notebooks/              # Jupyter notebooks for data processing, analysis and modelling
+│   ├── ...
+│   └── ...
+│
+├── results/                # Model results and evaluation outputs
+│
+├── figures/                # Selected figures and visualisations
+│
+├── requirements.txt        # Python packages used for the project
+│
+└── README.md               # Project overview and documentation
 ```
 
 ## Academic Context
